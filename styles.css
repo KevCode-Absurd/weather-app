@@ -1,0 +1,86 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: linear-gradient(to right, #ff9966, #ff5e62);
+  font-family: "DM Sans", sans-serif;
+  background-image: url("https://source.unsplash.com/1600x900/?clouds");
+  line-height: 2;
+}
+
+h1,
+h2 {
+  line-height: 1;
+}
+
+.card {
+  background: #000000bd;
+  color: white;
+  padding: 2em;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 420px;
+  margin: 1.5em;
+}
+.card:hover {
+  background-color: #000000cc;
+  transition: ease-in-out 0.35s;
+  transform: translateY(-5px);
+}
+
+.temperature {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  margin: 0.5em;
+  border-radius: 50%;
+  border: none;
+  height: 40px;
+  width: 40px;
+  outline: none;
+  background-color: #7c7c7c41;
+  color: whitesmoke;
+  transition: 0.25s ease-in-out;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #7c7c7c67;
+}
+
+.search-bar {
+  border: none;
+  outline: none;
+  padding: 0.4em 0.8em;
+  border-radius: 24px;
+  background-color: #7c7c7c41;
+  color: whitesmoke;
+  font-family: inherit;
+  font-size: 105%;
+  width: calc(100% - 85px);
+}
+
+.description {
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5em;
+  margin-left: 0;
+}
+.icon {
+  padding-left: 0px;
+  margin-left: -6px;
+}
